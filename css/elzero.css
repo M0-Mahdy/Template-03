@@ -163,7 +163,7 @@ ul {
     left: 0;
 }
 @media (max-width: 767px) {
-    .container {
+    .dots {
         display: none;
     }
 }
