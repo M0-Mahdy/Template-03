@@ -162,6 +162,11 @@ ul {
     bottom: 200px;
     left: 0;
 }
+@media (max-width: 767px) {
+    .container {
+        display: none;
+    }
+}
 /* End Global Rules  */
 .header {
     background-color: white;
@@ -554,7 +559,7 @@ a.logo {
     background-color: var(--color);
     position: absolute;
     left: 0;
-    top: -1px;
+    top: 0;
     z-index: -1;
 }
 .features .container .col:hover a {
