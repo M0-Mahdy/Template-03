@@ -629,6 +629,7 @@ a.logo {
 }
 .members .container .box .data {
     display: flex;
+    align-items: center;
     padding-top: 60px;
 }
 .members .container .box .data img {
@@ -638,8 +639,10 @@ a.logo {
 }
 .members .container .box .data .social {
     flex-direction: column;
-    gap: 30px;
     width: 60px;
+}
+.members .container .box .data .social a {
+    height: 30px;
 }
 .members .container .box .data .social i {
     color: #777;
@@ -1378,6 +1381,9 @@ a.logo {
 .footer .box .line .info {
     line-height: 1.7;
     flex: 1;
+}
+.footer .box .line .info span {
+    display: block;
 }
 .footer .footer-gallery img {
     width: 78px;
