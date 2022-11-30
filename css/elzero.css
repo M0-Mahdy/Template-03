@@ -641,7 +641,7 @@ a.logo {
     flex-direction: column;
     width: 60px;
 }
-.members .container .box .data .social a {
+.members .container .box .data .social > a {
     height: 30px;
 }
 .members .container .box .data .social i {
