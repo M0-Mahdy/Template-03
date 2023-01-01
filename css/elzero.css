@@ -420,7 +420,7 @@ a.logo {
 }
 .articles .container .box:hover .read i {
     color: var(--main-color);
-{
+}
 .articles .container .box:hover .read i {
     animation: arrow 0.6s linear infinite;
 }
