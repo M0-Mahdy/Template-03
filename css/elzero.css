@@ -418,7 +418,7 @@ a.logo {
     color: var(--main-color);
     font-weight: bold;
 }
-.articles .container .box:hover .read i {
+.articles .container .box .read i {
     color: var(--main-color);
 }
 .articles .container .box:hover .read i {
